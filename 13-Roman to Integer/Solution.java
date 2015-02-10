@@ -1,4 +1,5 @@
 //从后向前扫描（之所以从后往前，因为最后一位是个位，result可以直接确定），比较相邻字符，若左小右大则用现有结果减去，反之则加上
+//Time:O(n)orO(1) Space:O(1) (看怎么理解，整个罗马字符都要遍历，但是题目已给范围1-3999,n时字符串长度)
 import java.util.HashMap;
 public class Solution{
 	public int romanToInt(String s) {
