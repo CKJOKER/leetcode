@@ -1,3 +1,8 @@
+/**
+Given an integer, convert it to a roman numeral.
+
+Input is guaranteed to be within the range from 1 to 3999.
+*/
 //对每个位的罗马数字穷举然后，依次求出num的各个位数字，然后对应其罗马数字
 //Time:O(1) Space:O(1)
 public class Solution2 {

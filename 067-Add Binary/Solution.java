@@ -1,3 +1,11 @@
+/**
+Given two binary strings, return their sum (also a binary string).
+
+For example,
+a = "11"
+b = "1"
+Return "100".
+*/
 // 方法：从后往前扫描两个字符串，用carry存储进位，计算当前位置的数字，存入result中,长度小的string扫描完后
 //后再单独扫描大的。
 //Time：O(n) Space:O(m+n)  (m,n为两个字符串的长度，m<n)

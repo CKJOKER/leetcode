@@ -1,3 +1,8 @@
+/**
+Given an integer, convert it to a roman numeral.
+
+Input is guaranteed to be within the range from 1 to 3999.
+*/
 //因为罗马数字规则规定，自身连用构成数目，或者放在大数的右边连用构成数目，都不能超过三个，放在大数的左边只能用一个。
 //所以把放在左边构成数字嗒单独拿出来，计算时就能省去很多麻烦，因为只有在右边的罗马数字，因此只有加法运算，
 //随着需要转换的num越来越少，使用StringBuilder不断append直至map的key都比较完。

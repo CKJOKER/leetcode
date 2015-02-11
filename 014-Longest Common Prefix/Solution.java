@@ -1,3 +1,6 @@
+/**
+Write a function to find the longest common prefix string amongst an array of strings.
+*/
 //从第一个字符串开始比较，用prefix几下当前的最长公共前缀（以字符串为比较单位）
 //Time：O(mn) Space:O(1)   (m-每个字符串长度，n-字符数组长度)  
 public class Solution {
