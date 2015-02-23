@@ -1,3 +1,16 @@
+/*
+Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+
+You may assume that the array is non-empty and the majority element always exist in the array.
+*/
+/*
+divide and conquer(分治法)：Divide the array into two halves, then find the majority element A in the first half and the majority 
+element B in the second half. The global majority element must either be A or B. If A == B, then it automatically becomes the 
+global majority element. If not, then both A and B are the candidates for the majority element, and it is suffice to check the 
+count of occurrences for at most two candidates. The runtime complexity, T(n) = T(n/2) + 2n = O(n log n).
+
+Time:O(nlogn) Space:O(1)
+*/
 public class Solution5 {
     public int majorityElement(int[] num) {
         return dac(num,0,num.length-1);
