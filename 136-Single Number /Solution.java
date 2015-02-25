@@ -7,6 +7,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 /*
 位运算，XOR(异或)，对数组所有元素进行异或，最后留下的一定是单个元素。
 Time:O(n) Space:O(1)
+进一步思考：如果题目为每一个元素都是偶数对出现，只有一个元素是奇数个数，这个方法还适用吗？
 */
 public class Solution {
     public int singleNumber(int[] A) {
