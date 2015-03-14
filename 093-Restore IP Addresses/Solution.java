@@ -14,7 +14,11 @@ public class Solution {
         return list;
     }
     public void restore(String s,int start,int part,List<String>list){
-         list.add(s);
+        if(s.length()-start>(4-part)*3)
+          return ;
+        if(s.length()-start<4-part)
+          return ;
+                  
     }
     public static void main(String[] args) {
     	Solution solve=new Solution();
