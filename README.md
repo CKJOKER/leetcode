@@ -1,2 +1,2 @@
 # leetcode
-leetcode java 题解    
+leetcode java 题解
